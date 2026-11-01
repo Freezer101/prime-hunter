@@ -2981,7 +2981,7 @@ game.onUpdateInterval(2000, function () {
             ...777777....77777..
             ....................
             `, SpriteKind.Enemy)
-        tiles.placeOnRandomTile(Primenumber1, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(Primenumber1, assets.tile`transparency16`)
     } else if (primeenemies == 2) {
         Primenumber2 = sprites.create(img`
             ....................
@@ -3005,7 +3005,7 @@ game.onUpdateInterval(2000, function () {
             ....................
             ....................
             `, SpriteKind.Enemy)
-        tiles.placeOnRandomTile(Primenumber2, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(Primenumber2, assets.tile`transparency16`)
     } else if (primeenemies == 3) {
         Primenumber3 = sprites.create(img`
             ....................
@@ -3029,7 +3029,7 @@ game.onUpdateInterval(2000, function () {
             ....................
             ....................
             `, SpriteKind.Enemy)
-        tiles.placeOnRandomTile(Primenumber3, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(Primenumber3, assets.tile`transparency16`)
     } else if (primeenemies == 4) {
         Primenumber4 = sprites.create(img`
             ....................
@@ -3053,7 +3053,7 @@ game.onUpdateInterval(2000, function () {
             ...77...............
             ....................
             `, SpriteKind.Enemy)
-        tiles.placeOnRandomTile(Primenumber3, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(Primenumber3, assets.tile`transparency16`)
     } else if (primeenemies == 5) {
         Primenumber5 = sprites.create(img`
             ....................
@@ -3077,7 +3077,7 @@ game.onUpdateInterval(2000, function () {
             ..7777777...77777...
             ....................
             `, SpriteKind.Enemy)
-        tiles.placeOnRandomTile(Primenumber5, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(Primenumber5, assets.tile`transparency16`)
     }
 })
 forever(function () {
@@ -3110,7 +3110,7 @@ game.onUpdateInterval(30000, function () {
         ....................
         ....................
         `, SpriteKind.Live)
-    tiles.placeOnRandomTile(heart, sprites.dungeon.floorDark0)
+    tiles.placeOnRandomTile(heart, assets.tile`transparency16`)
 })
 game.onUpdateInterval(100, function () {
     Primenumber1.follow(Render.getRenderSpriteInstance(), 15)
@@ -3151,7 +3151,7 @@ game.onUpdateInterval(3000, function () {
             .......777777.......
             ....................
             `, SpriteKind.Friendly)
-        tiles.placeOnRandomTile(CompositeFriendly1, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(CompositeFriendly1, assets.tile`transparency16`)
     } else if (compositefriendlies == 2) {
         CompositeFriendly2 = sprites.create(img`
             ....................
@@ -3175,7 +3175,7 @@ game.onUpdateInterval(3000, function () {
             ..7777777...777777..
             ....................
             `, SpriteKind.Friendly)
-        tiles.placeOnRandomTile(CompositeFriendly2, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(CompositeFriendly2, assets.tile`transparency16`)
     } else if (compositefriendlies == 3) {
         CompositeFriendly3 = sprites.create(img`
             ....................
@@ -3199,7 +3199,7 @@ game.onUpdateInterval(3000, function () {
             .......7....77777...
             ....................
             `, SpriteKind.Friendly)
-        tiles.placeOnRandomTile(CompositeFriendly3, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(CompositeFriendly3, assets.tile`transparency16`)
     } else if (compositefriendlies == 4) {
         CompositeFriendly4 = sprites.create(img`
             ....................
@@ -3223,7 +3223,7 @@ game.onUpdateInterval(3000, function () {
             ....................
             ....................
             `, SpriteKind.Friendly)
-        tiles.placeOnRandomTile(CompositeFriendly4, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(CompositeFriendly4, assets.tile`transparency16`)
     } else if (compositefriendlies == 5) {
         CompositeFriendly5 = sprites.create(img`
             ....................
@@ -3247,7 +3247,7 @@ game.onUpdateInterval(3000, function () {
             ...7777.....777777..
             ....................
             `, SpriteKind.Friendly)
-        tiles.placeOnRandomTile(CompositeFriendly5, sprites.dungeon.floorDark2)
+        tiles.placeOnRandomTile(CompositeFriendly5, assets.tile`transparency16`)
     }
 })
 game.onUpdateInterval(8000, function () {
